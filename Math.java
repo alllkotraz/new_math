@@ -7,16 +7,15 @@ public class Math {
 		switch (action) {
 			case "-":
 				r = subtraction(a, b);
-				System.out.printf("Result: %d\n", r);
 				break;
 			case "+":
 				r = addition(a, b);
-				System.out.printf("Result: %d\n", r);
 				break;
 			default:
 				System.out.printf("Unknown operator: %s\n", action);
 				break;
 		}
+		System.out.printf("Result: %d\n", r);
 	}
 
 	public static Integer subtraction (Integer a, Integer b) {
