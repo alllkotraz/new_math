@@ -5,7 +5,10 @@ public class Math {
 		Integer b = Integer.valueOf(args[2]);
 		switch (action) {
 			case "-":
-				System.out.printf("Result: %d", subtraction(a, b));
+				System.out.printf("Result: %d\n", subtraction(a, b));
+				break;
+			case "+":
+				System.out.printf("Result: %d\n", addition(a, b));
 				break;
 			default:
 				System.out.printf("Unknown operator: %s\n", action);
